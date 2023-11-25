@@ -6,7 +6,17 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      title: ['Avocalipss'],
+      sans: ['Source Sans Pro'],
+      hero: ['Playfair Display'],
+      display:['Alice'],
+    },
     extend: {
+      colors: {
+        'gold': '#FDD87A',
+        'baby_blue':'#87A9C4',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
