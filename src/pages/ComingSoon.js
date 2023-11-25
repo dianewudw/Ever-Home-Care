@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function ComingSoon() {
     return (
-        <main className="flex h-full w-full p-10 flex-col items-center">
+        <main className="flex w-full p-10 flex-col items-center">
             <div className='table p-2 md:p-10 border-2 border-gold rounded-3xl w-full h-full'>
                 <div class='flex flex-row justify-center sm:justify-start w-full '>
                 <span class='flex flex-row md:align-middle m-5 md:m-'>
@@ -26,7 +26,7 @@ export default function ComingSoon() {
                         {/*<p className='flex font-hero text-3xl md:text-5xl md:text-start'>{'We\'re here for you.'}</p>*/}
                         {/*<p className='flex font-hero italic text-3xl md:text-5xl md:text-start'>{'Bringing joy to ever step of the journey'}</p>*/}
                         <p className='flex font-hero font-bold text-3xl md:text-8xl text-center shrink'>{'Coming Soon'}</p>
-                        <p className='flex font-hero text-xs italic md:text-2xl text-gold text-center '>{'Our team is currently working hard building this page!'}</p>
+                        <p className='flex font-hero text-xs italic md:text-2xl text-gold text-center '>{'Our team is working hard to build this website!'}</p>
                         {/*<p className='flex font-hero  text-3xl md:text-5xl text-gold text-center md:text-start'>{'Experience Assisted Living from Ever Home'}</p>*/}
                         {/*<p className='flex font-hero italic text-3xl md:text-5xl md:text-start'>{'Bringing joy to ever step of the journey'}</p>*/}
 
