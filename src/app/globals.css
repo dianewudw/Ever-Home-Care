@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* From Public Directory */
+@font-face {
+  font-family: "Avocalipss";
+  src: url("../../public/assets/Avocalipss-Regular.ttf");
+  font-style: normal;
+}
+
 :root {
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 9, 18, 53;
