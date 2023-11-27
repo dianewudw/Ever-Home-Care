@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function ComingSoon() {
     return (
-        <main className="flex w-full p-10 flex-col items-center">
+        <main className="flex h-full w-full p-10 flex-col items-center">
             <div className='table p-2 md:p-10 border-2 border-gold rounded-3xl w-full h-full'>
                 <div class='flex flex-row justify-center sm:justify-start w-full '>
                 <span class='flex flex-row md:align-middle m-5 md:m-'>
